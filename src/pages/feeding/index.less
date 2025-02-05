@@ -1,0 +1,172 @@
+.feeding {
+    width: 100%;
+    height: 100vh;
+    padding: 20rpx;
+    box-sizing: border-box;
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 28rpx;
+        color: #000;
+        .item {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            padding-left: 20rpx;
+            box-sizing: border-box;
+        }
+        .taro_picker {
+            flex: 1;
+            border-radius: 8rpx;
+            color: #000;
+            z-index: 999;
+            .picker {
+              height: 45rpx;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              gap: 30rpx;
+              padding: 3rpx 20rpx;
+              overflow: hidden;
+              font-size: 26rpx;
+            } 
+        }
+    }
+    .weather {
+        width: 100%;
+        min-height: 250rpx;
+        border-radius: 30rpx;
+        background-color: #EFE7E5;
+        margin-top: 30rpx;
+        padding: 20rpx;
+        box-sizing: border-box;
+        .time {
+            width: 100%;
+            min-height: 20rpx;
+            text-align: right;
+            font-size: 24rpx;
+            color: #6B6666;
+        }
+        .temperature {
+            width: 100%;
+            text-align: center;
+            font-size: 30rpx;
+            margin-top: 10rpx;
+            .air {
+                font-size: 50rpx;
+                display: inline-block;
+                margin-right: 50rpx;
+                margin-left: 120rpx;
+            } 
+        }
+        .climate {
+            width: 92%;
+            height: 60rpx;
+            margin: 0 auto;
+            margin-top: 10rpx;
+            background-color: #D5D1D1;
+            border-radius: 16rpx;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .item {
+                flex: 1;
+                color: #6B6666;
+                text-align: center;
+                .text {
+                    color: #000;
+                }
+            }
+        }
+    }
+    .tabs_item {
+        width: 100%;
+        height: 68vh;
+        .content {
+            width: 100%;
+            height: calc(68vh - 110rpx);
+            overflow-y: auto;
+            .list {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .title {
+                    margin-left: 32rpx;
+                    min-width: 156rpx;
+                }
+            }
+            .taro_picker {
+                flex: 1;
+                padding: 24rpx 0rpx;
+                border-radius: 8rpx;
+                color: #AAB2C0;
+                z-index: 999;
+                .picker {
+                  min-height: 45rpx;
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  gap: 30rpx;
+                  padding: 3rpx 0rpx;
+                  padding-left: 30rpx;
+                  overflow: hidden;
+                  .picker-text {
+                    color: #000;
+                  }
+                } 
+            }
+        }
+        .but {
+            margin-top: 20rpx;
+            background-color: #1040BA;
+            border-radius: 10rpx;
+            color: #fff;
+        }
+    }
+    .at-tabs {
+        height: auto;
+        padding-bottom: 25rpx;
+    }
+    .at-input {
+        margin-bottom: 0;
+        width: 100%;
+        background-color: #fff0;
+    }
+    .atLayout {
+        width: 100%;
+        height: 60vh;
+        .list {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .title {
+                margin-left: 32rpx;
+                min-width: 156rpx;
+            }
+        }
+        .taro_picker {
+            flex: 1;
+            padding: 24rpx 0rpx;
+            border-radius: 8rpx;
+            color: #AAB2C0;
+            z-index: 999;
+            font-size: 30rpx;
+            border-bottom: 1rpx solid #d6e4ef;
+            .picker {
+              min-height: 45rpx;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              gap: 30rpx;
+              padding: 3rpx 0rpx;
+              padding-left: 30rpx;
+              overflow: hidden;
+              .picker-text {
+                color: #000;
+              }
+            } 
+        }
+    }
+}
